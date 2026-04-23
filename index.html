@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Astrus OS</title>
+ <link rel="stylesheet" href="ast.css">
+ <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+ <img src="/ilumware.png" id="marplaca">
+  <div id="top">
+   <img src="/astrus.png" id="logo">
+   <div id="carre"></div>
+  </div>
+ <div id="login">
+  <input id="userPC" type="text" placeholder=" digite o nome do seu Computador">
+  <input id="user" type="text" placeholder=" digite o nome do usuário">
+  <input id="pass" type="password" placeholder=" digite a senha">
+
+  <button id="loginbtn" onclick="login_start()">Criar Conta</button>
+ </div>
+
+ <div id="one"></div>
+ <div id="two"></div>
+ <div id="thr"></div>
+ <div id="four"></div>
+ <div id="five"></div>
+ <div id="six"></div>
+ <div id="barra"></div>
+ <div id="menu"></div>
+ <img src="/astrus2.png" id="bar_img" onclick="menu_bar()">
+ <div id="cen"></div>
+  <div id="login_sys">
+   <img src="/A2.png" id="A">
+   <h1 id="user_sys"></h1>
+   <input id="pass_sys" type="password" placeholder="digite sua senha" onkeypress="if(event.key==='Enter'){enter_sys()}">
+  </div>
+ 
+ <script src="ast.js"></script>
+</body>
+</html>
