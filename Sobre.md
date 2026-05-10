@@ -61,6 +61,8 @@ EC28G
 | G | Gaming |
 | S | Server |
 | E | Education |
+| P | Prototype |
+| B | Beta |
 
 ---
 
