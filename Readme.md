@@ -79,15 +79,40 @@ EC28G
 
 ## 🔧 Builds
 
-As builds internas são separadas da versão principal.
+As builds internas do Astrus OS são separadas da versão principal e utilizam um sistema baseado em:
 
-Exemplo:
+Bimestre → Mês → Dia
 
-Astrus OS ST40S — Build 3
+### 📌 Estrutura
+
+B#.MM.DD
+
+### 🔍 Significado
+
+- **B#** → Bimestre da build
+- **MM** → Mês da criação/lançamento
+- **DD** → Dia da criação/lançamento
+
+---
+
+## 💡 Exemplos
+
+| Código | Significado |
+|---|---|
+| B1.01.12 | 1º bimestre, Janeiro, dia 12 |
+| B2.03.28 | 2º bimestre, Março, dia 28 |
+| B4.08.05 | 4º bimestre, Agosto, dia 05 |
+| B6.12.30 | 6º bimestre, Dezembro, dia 30 |
+
+---
+
+## 🖥️ Exemplo Completo
+
+Astrus OS ST40S — B2.03.28
 
 ou
 
-Astrus OS Stellar 40 Server (Build 3)
+Astrus OS Stellar 40 Server (B2.03.28)
 
 ---
 
